@@ -1,4 +1,4 @@
-import type {LinksFunction, LoaderArgs, LoaderFunction, MetaFunction} from '@remix-run/node'
+import type {LinksFunction, LoaderArgs, MetaFunction} from '@remix-run/node'
 import {json} from '@remix-run/node'
 import {Link, useLoaderData} from '@remix-run/react'
 import groq from 'groq'
